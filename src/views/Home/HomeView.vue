@@ -6,7 +6,7 @@ export default defineComponent({
 </script>
 
 <template>
-    <h1>This is Home</h1>
+      <h1 class="text-2xl font-bold">This is Home page</h1>
 </template>
 <style scoped>
 
