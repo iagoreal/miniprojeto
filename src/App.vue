@@ -9,8 +9,7 @@ export default {
 <template>
   <div class="wrapper">
     <header>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
+      <NavBar/>
     </header>
 
     <RouterView />
