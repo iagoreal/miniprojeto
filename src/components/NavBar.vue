@@ -22,7 +22,7 @@ export default {
 };
 </script>
 <template>
-          <Menubar :model="items"class="!bg-black !rounded-none !border-0">
+          <Menubar :model="items" class="!bg-neutral-900 !rounded-none !border-0 h-16">
               <template #start>
                 <RouterLink to="/" class="custom-router-link">
                     <img src="https://pirataflix.netlify.app/static/media/logo.dc3d4eba.png" alt="Logo" width="35" height="40" class="h-8" />

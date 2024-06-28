@@ -6,7 +6,7 @@ export default defineComponent({
 </script>
 
 <template>
-      <h1 class="text-2xl font-bold">This is Home page</h1>
+      <CardFlix/>
 </template>
 <style scoped>
 
