@@ -7,25 +7,15 @@ export default {
 </script>
 
 <template>
-  <div class="wrapper">
+  <div class="bg-neutral-800">
     <header>
       <NavBar/>
     </header>
-
+    
     <RouterView />
   </div>
 </template>
 
-<style scoped>
-
-header {
-  height: fit-content;
-  width: 100%;
-}
-
-body {
-  height: 100vh;
-  width: 100vh;
-}
+<style>
 
 </style>
